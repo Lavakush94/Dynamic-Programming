@@ -24,7 +24,7 @@ public class LPSubstring
 				maxlen = 2;
  			}
 		}
-		for(int k = 3;k < len;k++)
+		for(int k = 3;k <= len;k++)
 		{
 			for(int i = 0;i < (len - k + 1);i++)
 			{
